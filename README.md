@@ -13,3 +13,9 @@ The refactored code performed the formatting while the timer was running, but st
 <img width="235" alt="VBA_Challenge_2017" src="https://user-images.githubusercontent.com/111674383/191434053-6560cbed-ed33-46e3-95ed-721b23e74074.png">
 
 <img width="226" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/111674383/191434074-05f22a5d-5fea-472f-bc29-13b9c92a392b.png">
+
+### Stock Performances
+
+Conditional formatting was applied to the cells to make the results easier to interpret. Stocks with gains were highlighted in green, and stocks with losses were highlighted in red. This maked it clear that 2017 was a better year for stock performances.
+
+<img width="194" alt="Returns_2017" src="https://user-images.githubusercontent.com/111674383/191437984-4259595d-4a88-4259-b272-e7afcfdd5b72.png">       <img width="190" alt="Returns_2018" src="https://user-images.githubusercontent.com/111674383/191438215-b81fda3a-190a-4465-8182-72f4d6e4d243.png">
