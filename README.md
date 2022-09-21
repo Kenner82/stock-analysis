@@ -27,3 +27,9 @@ Conditional formatting was applied to the cells to make the results easier to in
 Refactoring allows improvements to be made to code that has already proven itself to be functional and logically sound. Instead of working out a solution to a problem, the author can focus on ways to make the code more flexible (so that it can easily be reused in other situations), easier for future coders to understand, or (as in this case) more efficient with the resources and time it takes to run. 
 
 However, refactoring also involves tinkering with code that has been designed to run in a particular way, which means the odds are good that you will break something along the way. Properly formatted code with plenty of comments helps mitigate this risk, but care must be taken to check that no other applications rely on functions you might intend to change.
+
+### Applications To The Original Script
+
+While the changes in the logic of both the original and refactored code were minor, the structure of the code changed significantly. It was important to ensure that the same variable names as in the original code were declared and then treated as arrays instead of long variables. A designated index variable (tickerIndex) was also necessary to ensure that the same location in each array was being referenced. 
+
+While the script could have been broken, in this instance the benefits of refactoring outweighed the risks, and steps were taken to ensure that the code was as well commented and easy to update for future coders as possible. 
